@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox practice</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: lightblue">div 1 text</div>
+      <div style="background-color: lightpink">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; flex: 1">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 2px;
+        border-color: gray;
+        border-style: solid;
+        justify-content: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: rgb(185, 230, 173); width: 100px">
+        100px
+      </div>
+      <div style="background-color: lightpink; width: 100px">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 2px;
+        border-color: gray;
+        border-style: solid;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: rgb(185, 230, 173); width: 100px">
+        100px
+      </div>
+      <div style="background-color: lightpink; width: 100px">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 2px;
+        border-color: gray;
+        border-style: solid;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: rgb(185, 230, 173); width: 100px">
+        100px
+      </div>
+      <div style="background-color: lightpink; width: 100px">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+  </body>
+</html>

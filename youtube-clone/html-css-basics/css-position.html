@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions Practice</title>
+  </head>
+  <body style="height: 3000px; padding-top: 60px; padding-left: 80px">
+    <div
+      style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+        z-index: 1;
+      "
+    >
+      header
+    </div>
+    <div
+      style="
+        background-color: blueviolet;
+        position: absolute;
+        top: 30px;
+        right: 10px;
+        color: white;
+        z-index: 2;
+      "
+    >
+      absolute
+    </div>
+
+    <div
+      style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 50px;
+        width: 70px;
+      "
+    >
+      sidebar
+      <div
+        style="
+          background-color: blueviolet;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          color: white;
+          /* z-index: 2; */
+        "
+      >
+        x
+      </div>
+    </div>
+    <div style="background-color: lightblue; height: 200px; width: 200px">
+      div1
+    </div>
+    <div
+      style="
+        background-color: lightseagreen;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      div2
+      <div
+        style="
+          background-color: blueviolet;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          color: white;
+          /* z-index: 2; */
+          width: 24px;
+          font-size: 20px;
+          padding-left: 10px;
+          /* text-align: right; */
+        "
+      >
+        x
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: green;
+        width: 100px;
+        position: fixed;
+        right: 0;
+        top: 50px;
+        bottom: 0px;
+      "
+    >
+      right sidebar
+    </div>
+  </body>
+</html>
